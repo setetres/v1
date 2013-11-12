@@ -1,0 +1,85 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;outline:0;border:0;vertical-align:baseline;font:inherit;font-size:100%;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:none;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-spacing:0;border-collapse:collapse;}
+
+body {
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* custom */
+
+::-moz-selection {background: #bef202; color: #000000; text-shadow: none;}
+::selection {background: #bef202; color: #000000; text-shadow: none;}
+
+#wr {padding: 15px;}
+#wr output {clear: both; width: 100%;}
+#wr output span, #wr output a {color: #bef202;}
+
+.prompt {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    margin-right: 7px;
+    color: #bef202;
+    white-space: nowrap;
+    -webkit-box-pack: center;
+    -webkit-box-orient: vertical;
+    -moz-box-pack: center;
+    -moz-box-orient: vertical;
+    box-pack: center;
+    box-orient: vertical;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+.ls-files {
+    height: 45px;
+    -webkit-column-width: 100px;
+    -moz-column-width: 100px;
+    column-width: 100px;
+    -o-column-width: 100px;
+}
+.cmdline {
+    margin: 0;
+    width: 100%;
+    outline: 0 none;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    font: inherit;
+}
+
+body.white { background-color: #f2f2f2 !important;color: #2c2b26 !important;}
+body.white .prompt {color: #b9b9b9 !important;}
+body.white .cmdline {color: #2c2b26 !important;}
+body.white output span, body.white output a {color: #b9b9b9 !important;}
+
+.kept {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    background: #f8cc1a;
+    color: #000100;
+    z-index: 1000;
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 11px;
+}
+
+.kept p {
+    padding: 0 5px;
+}
+
+.kept p a {
+    color: #000100;
+    text-decoration: underline;
+}
+
+.kept p a:hover {
+    text-decoration: none;
+}
