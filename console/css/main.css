@@ -56,6 +56,8 @@ body.white .prompt {color: #b9b9b9 !important;}
 body.white .cmdline {color: #2c2b26 !important;}
 body.white output span, body.white output a {color: #b9b9b9 !important;}
 
+/* kept bar */
+
 .kept {
     position: fixed;
     width: 100%;
@@ -69,9 +71,11 @@ body.white output span, body.white output a {color: #b9b9b9 !important;}
     font-weight: normal;
     font-style: normal;
     font-size: 11px;
+    line-height: 11px;
 }
 
 .kept p {
+    margin: 0;
     padding: 0 5px;
 }
 
