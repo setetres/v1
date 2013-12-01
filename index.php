@@ -131,7 +131,7 @@
                     </ul>
                 </nav>
             </section>
-            <section id="instagram">
+            <!-- <section id="instagram">
                 <div class="instagram">
                     <h1>
                         <span id="pages" title="Instagram Photostrips"></span>
@@ -140,7 +140,7 @@
                     </h1>
                     <div id="instagram-hold"></div>
                 </div>
-            </section>
+            </section> -->
             <section id="extras">
                 <h2>
                     Extras

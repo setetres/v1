@@ -192,30 +192,30 @@ $(document).ready(function(){
 
     // instagram
 
-    $('#instagram-hold').instagram('getStream', {
-        count: 5,
-        getUser: true,
-        callback: function(){
-            $totalPages = $('#instagram-hold').data('pages');
-            $pageHolder = $('#pages');
+    // $('#instagram-hold').instagram('getStream', {
+    //     count: 5,
+    //     getUser: true,
+    //     callback: function(){
+    //         $totalPages = $('#instagram-hold').data('pages');
+    //         $pageHolder = $('#pages');
 
-            if(typeof($totalPages) != 'undefined'){
-                $pageHolder.html($totalPages + '');
-            }
-            $.each($('#instagram-hold img'), function(){
-                var $this = $(this);
-                $('#instagram-hold').append($('<a href="'+$this.data('instagramLink')+'" target=\"_blank\" rel="external"></a>').append($this));
-            });
-        }
-    });
+    //         if(typeof($totalPages) != 'undefined'){
+    //             $pageHolder.html($totalPages + '');
+    //         }
+    //         $.each($('#instagram-hold img'), function(){
+    //             var $this = $(this);
+    //             $('#instagram-hold').append($('<a href="'+$this.data('instagramLink')+'" target=\"_blank\" rel="external"></a>').append($this));
+    //         });
+    //     }
+    // });
 
     // close about
 
     $('#close-about').click(function(){
         $('#mn-about').removeClass('selected');
-        $('#instagram').slideUp(750,'easeInOutExpo',function(){
-            $('#about').slideUp(750,'easeInOutExpo');
-        });
+        $('#about').slideUp(750,'easeInOutExpo');
+        // $('#instagram').slideUp(750,'easeInOutExpo',function(){
+        // });
     });
 
     // close works
@@ -289,9 +289,9 @@ $(document).ready(function(){
             $('#mn-about').addClass('selected');
             if ($('.title').is(':visible')){
                 $('#about').slideDown(750,'easeInOutExpo',function(){
-                    $('#instagram').slideDown(750,'easeInOutExpo',function(){
-                        $('html,body').animate({scrollTop: $('#about').offset().top},600,'easeInOutExpo');
-                    });
+                    $('html,body').animate({scrollTop: $('#about').offset().top},600,'easeInOutExpo');
+                    // $('#instagram').slideDown(750,'easeInOutExpo',function(){
+                    // });
                 });
             } else {
                 $('.title').slideDown(750,'easeInOutExpo',function(){
@@ -299,9 +299,9 @@ $(document).ready(function(){
                         ballon();
                         $('footer').slideDown(750,'easeInOutExpo',function(){
                             $('#about').slideDown(750,'easeInOutExpo',function(){
-                                $('#instagram').slideDown(750,'easeInOutExpo',function(){
-                                    $('html,body').animate({scrollTop: $('#about').offset().top},600,'easeInOutExpo');
-                                });
+                                $('html,body').animate({scrollTop: $('#about').offset().top},600,'easeInOutExpo');
+                                // $('#instagram').slideDown(750,'easeInOutExpo',function(){
+                                // });
                             });
                         });
                     });
