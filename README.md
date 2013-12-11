@@ -5,7 +5,7 @@ Award winning v1.0 of my website.
 
 Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to [setetres.st].
 
-![v1](http://file.setetres.st/img/v1-header.gif?raw=true)
+![v1](http://file.setetres.st/img/v1-header.gif?v=1.1&raw=true)
 
 License
 -------
