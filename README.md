@@ -10,7 +10,7 @@ Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to [setetr
 License
 -------
 
-v1 is under a [Creative Commons Attribution 3.0 License].
+v1 is under a [Creative Commons Attribution License].
 
 [setetres.st]: http://setetres.st
-[Creative Commons Attribution 3.0 License]: http://creativecommons.org/licenses/by/3.0
+[Creative Commons Attribution License]: http://creativecommons.org/licenses/by/3.0
