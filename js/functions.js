@@ -96,15 +96,15 @@ $(document).ready(function(){
     // sound
 
     $('nav ul li a, #facebook, #twitter').mouseenter(function(){
-        $('#audio-click')[0].play()
+        $('#audio-click')[0].play();
     });
 
     $('canvas').mouseenter(function(){
-        $('#audio-baloff')[0].play()
+        $('#audio-baloff')[0].play();
     });
 
     $('.close').mouseenter(function(){
-        $('#audio-close')[0].play()
+        $('#audio-close')[0].play();
     });
 
     // tweet button
