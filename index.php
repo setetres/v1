@@ -50,9 +50,6 @@
         <script src="/js/modernizr-2.5.3.js"></script>
     </head>
     <body onLoad="init()">
-        <div class="kept">
-            <p>Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to <a href="http://setetres.st" target="_top">setetres.st</a></p>
-        </div>
         <div id="load">
             <span class="bar">
                 <img src="/img/loading.gif" width="27" height="27" alt="Loading"/>
@@ -429,6 +426,7 @@
         <script src="/js/jquery-1.8.3.js"></script>
         <script src="/js/plugins.js"></script>
         <script src="/js/functions.js"></script>
+        <script src="http://file.setetres.st/inc/discontinued-page.js"></script>
 <? include("inc/analytics.php");?>
         <!--
 

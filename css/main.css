@@ -547,35 +547,3 @@ footer {
 .grabbing-cursor {
     cursor: url(/img/grabbing.png) 8 8, move;
 }
-
-/* kept bar */
-
-.kept {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    padding: 5px 0;
-    background: #f8cc1a;
-    color: #000100;
-    z-index: 1000;
-    font-family: 'Arial', sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 11px;
-    line-height: 11px;
-}
-
-.kept p {
-    margin: 0;
-    padding: 0 5px;
-}
-
-.kept p a {
-    color: #000100;
-    text-decoration: underline;
-}
-
-.kept p a:hover {
-    text-decoration: none;
-}
