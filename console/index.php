@@ -50,9 +50,6 @@
         <script src="/js/modernizr-2.5.3.js"></script>
     </head>
     <body>
-        <div class="kept">
-            <p>Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to <a href="http://setetres.st" target="_top">setetres.st</a></p>
-        </div>
         <div id="wr">
             <output></output>
             <div id="input-line" class="input-line">
@@ -68,6 +65,7 @@
         <script>
             (function(){var term=new Terminal('#input-line .cmdline','#wr output');term.initFS(false,1024*1024);if(document.location.hash){var theme=document.location.hash.substring(1).split('=')[1];term.setTheme(theme);}else if(localStorage.theme){term.setTheme(localStorage.theme);}})();
         </script>
+        <script src="http://file.setetres.st/inc/discontinued-page.js"></script>
 <? include("../inc/analytics.php");?>
         <!--
 
