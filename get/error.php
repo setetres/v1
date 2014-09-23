@@ -64,7 +64,7 @@
     </head>
     <body class="error">
         <div class="kept">
-            <p>Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to <a href="http://setetres.st">setetres.st</a></p>
+            <p>Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to <a href="http://setetres.st" target="_top">setetres.st</a></p>
         </div>
         <div class="grid"></div>
         <div class="dots"></div>
