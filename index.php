@@ -272,7 +272,6 @@
                             <li><img src="/img/portfolio/web-grum-01.jpg" width="610" height="461" alt="Grüm / Hotsite"/></li>
                             <li><img src="/img/portfolio/web-grum-02.jpg" width="610" height="461" alt="Grüm / Hotsite"/></li>
                             <li><img src="/img/portfolio/web-grum-03.jpg" width="610" height="461" alt="Grüm / Hotsite"/></li>
-
                         </ul>
                     </div>
                     <div class="info">
@@ -426,7 +425,7 @@
         <script src="/js/jquery-1.8.3.js"></script>
         <script src="/js/plugins.js"></script>
         <script src="/js/functions.js"></script>
-        <script src="http://file.setetres.st/inc/discontinued-page.js"></script>
+        <script src="http://files.setetres.st/js/discontinued-page.js"></script>
 <? include("inc/analytics.php");?>
         <!--
 

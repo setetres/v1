@@ -77,7 +77,7 @@
         <script type="text/javascript">
             $(function(){$('a[rel=external]').attr('target','_blank');$('li').tooltip({track:true,delay:0,showURL:false,showBody:' - ',fade:200});$('nav ul li a').mouseenter(function(){$('#audio-click')[0].play()});});jQuery(function($){$.supersized({slides:[{image:'/img/bg-get.gif'}]});});
         </script>
-        <script src="http://file.setetres.st/inc/discontinued-page.js"></script>
+        <script src="http://files.setetres.st/js/discontinued-page.js"></script>
 <? include("../inc/analytics.php");?>
         <!--
 

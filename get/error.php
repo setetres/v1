@@ -63,9 +63,6 @@
         <script src="/js/modernizr-2.5.3.js"></script>
     </head>
     <body class="error">
-        <div class="kept">
-            <p>Discontinued Page  &#8212; Historical only. Looking for new stuff? Go to <a href="http://setetres.st" target="_top">setetres.st</a></p>
-        </div>
         <div class="grid"></div>
         <div class="dots"></div>
         <div id="wr">
@@ -96,7 +93,7 @@
         <script type="text/javascript">
             $(function(){$('a[rel=external]').attr('target','_blank');$('li').tooltip({track:true,delay:0,showURL:false,showBody:' - ',fade:200});$('nav ul li a').mouseenter(function(){$('#audio-click')[0].play()});});jQuery(function($){$.supersized({slides:[{image:'/img/bg-404.gif'}]});});
         </script>
-        <script src="http://file.setetres.st/inc/discontinued-page.js"></script>
+        <script src="http://files.setetres.st/js/discontinued-page.js"></script>
 <? include("../inc/analytics.php");?>
         <!--
 

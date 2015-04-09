@@ -65,7 +65,7 @@
         <script>
             (function(){var term=new Terminal('#input-line .cmdline','#wr output');term.initFS(false,1024*1024);if(document.location.hash){var theme=document.location.hash.substring(1).split('=')[1];term.setTheme(theme);}else if(localStorage.theme){term.setTheme(localStorage.theme);}})();
         </script>
-        <script src="http://file.setetres.st/inc/discontinued-page.js"></script>
+        <script src="http://files.setetres.st/js/discontinued-page.js"></script>
 <? include("../inc/analytics.php");?>
         <!--
 
