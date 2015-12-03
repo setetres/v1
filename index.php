@@ -117,12 +117,8 @@
                         <li title="Twitter"><a href="http://twitter.com/supertrunfo" id="mn-twitter" rel="external">Tw</a></li>
                         <li title="Vimeo"><a href="http://vimeo.com/select" id="mn-vimeo" rel="external">Vm</a></li>
                         <li title="Youtube"><a href="http://youtube.com/setetrespontost" id="mn-youtube" rel="external">Yt</a></li>
-                        <li title="Share" class="null">
-                            <div id="facebook" data-url="http://setetres.st/" data-text="Selected works from Guilherme Pangnotta &#8212; Sete Três" data-title="f"></div>
-                        </li>
-                        <li title="Tweet" class="null">
-                            <div id="twitter" data-url="http://setetres.st/" data-text="Selected works from Guilherme Pangnotta &#8212; Sete Três" data-title="t"></div>
-                        </li>
+                        <li class="null">&nbsp;</li>
+                        <li class="null">&nbsp;</li>
                         <li title="PUTA.nu"><a href="http://puta.nu" id="mn-puta" rel="external">Pu</a></li>
                         <li title="Don't click!"><a href="http://facebook.com/setetres.st" id="mn-dontclick" rel="external">Fb</a></li>
                     </ul>
