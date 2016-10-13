@@ -3,7 +3,7 @@ v1 [![Github License](https://img.shields.io/github/license/setetres/v1.svg)](ht
 
 v1.0 of my website. [http://v1.setetres.st]
 
-![v1](http://files.setetres.st/img/v1-desktop.png?v=1&raw=true)
+[![v1](http://files.setetres.st/img/v1-desktop.png?v=1&raw=true)](http://v1.setetres.st)
 
 Discontinued Page &#8212; Historical only. Looking for new stuff? Go to [setetres.st].
 
