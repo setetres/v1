@@ -107,35 +107,6 @@ $(document).ready(function(){
         $('#audio-close')[0].play();
     });
 
-    // tweet button
-
-    $('#twitter').sharrre({
-        share: {
-            twitter: true
-        },
-            enableHover: false,
-            enableTracking: true,
-            buttons: { twitter: {via: 'supertrunfo'}},
-            click: function(api, options){
-            api.simulateClick();
-            api.openPopup('twitter');
-        }
-    });
-
-    // share button
-
-    $('#facebook').sharrre({
-        share: {
-            facebook: true
-        },
-            enableHover: false,
-            enableTracking: true,
-            click: function(api, options){
-            api.simulateClick();
-            api.openPopup('facebook');
-        }
-    });
-
     // grab
 
     $(".slider li").mouseover(function(){
@@ -160,7 +131,7 @@ $(document).ready(function(){
         $(this).animate({height:'100px'},600,'easeInOutExpo');
     }
 
-    // taget blank
+    // target blank
 
     $('a[rel=external]').attr('target', '_blank');
 
@@ -190,32 +161,11 @@ $(document).ready(function(){
         fade: 200
     });
 
-    // instagram
-
-    // $('#instagram-hold').instagram('getStream', {
-    //     count: 5,
-    //     getUser: true,
-    //     callback: function(){
-    //         $totalPages = $('#instagram-hold').data('pages');
-    //         $pageHolder = $('#pages');
-
-    //         if(typeof($totalPages) != 'undefined'){
-    //             $pageHolder.html($totalPages + '');
-    //         }
-    //         $.each($('#instagram-hold img'), function(){
-    //             var $this = $(this);
-    //             $('#instagram-hold').append($('<a href="'+$this.data('instagramLink')+'" target=\"_blank\" rel="external"></a>').append($this));
-    //         });
-    //     }
-    // });
-
     // close about
 
     $('#close-about').click(function(){
         $('#mn-about').removeClass('selected');
         $('#about').slideUp(750,'easeInOutExpo');
-        // $('#instagram').slideUp(750,'easeInOutExpo',function(){
-        // });
     });
 
     // close works
@@ -266,6 +216,13 @@ $(document).ready(function(){
 
 });
 
+function ballon(){
+    $('.title canvas').animate({marginTop:'-50px'},1500,'easeOutBounce');
+    setTimeout(function(){
+        $('.title canvas').animate({marginTop:'0px'},6000,'easeOutQuad', ballon);
+    }, 10);
+}
+
 // sammy.js
 
 ;(function($){
@@ -276,13 +233,6 @@ $(document).ready(function(){
 
         this.get('/',function(){});
 
-        function ballon(){
-            $('.title canvas').animate({marginTop:'-50px'},1500,'easeOutBounce');
-            setTimeout(function(){
-                $('.title canvas').animate({marginTop:'0px'},6000,'easeOutQuad', ballon);
-            }, 10);
-        }
-
         // navigation: about
 
         this.get('#!/about', function(){
@@ -290,8 +240,6 @@ $(document).ready(function(){
             if ($('.title').is(':visible')){
                 $('#about').slideDown(750,'easeInOutExpo',function(){
                     $('html,body').animate({scrollTop: $('#about').offset().top},600,'easeInOutExpo');
-                    // $('#instagram').slideDown(750,'easeInOutExpo',function(){
-                    // });
                 });
             } else {
                 $('.title').slideDown(750,'easeInOutExpo',function(){
@@ -300,8 +248,6 @@ $(document).ready(function(){
                         $('footer').slideDown(750,'easeInOutExpo',function(){
                             $('#about').slideDown(750,'easeInOutExpo',function(){
                                 $('html,body').animate({scrollTop: $('#about').offset().top},600,'easeInOutExpo');
-                                // $('#instagram').slideDown(750,'easeInOutExpo',function(){
-                                // });
                             });
                         });
                     });

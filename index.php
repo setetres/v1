@@ -124,16 +124,6 @@
                     </ul>
                 </nav>
             </section>
-            <!-- <section id="instagram">
-                <div class="instagram">
-                    <h1>
-                        <span id="pages" title="Instagram Photostrips"></span>
-                        <span>Ig</span>
-                        <span class="txt">follow me at instagram<br/><a href="http://instagr.am/setetres" rel="external">setetres</a></span>
-                    </h1>
-                    <div id="instagram-hold"></div>
-                </div>
-            </section> -->
             <section id="extras">
                 <h2>
                     Extras
@@ -421,7 +411,16 @@
         <script src="/js/jquery-1.8.3.js"></script>
         <script src="/js/plugins.js"></script>
         <script src="/js/functions.js"></script>
-        <script src="http://files.setetres.st/js/discontinued-page.js"></script>
+        <script>
+            (function() {
+                var sc = document.createElement('script');
+                    sc.type = 'text/javascript';
+                    sc.async = true;
+                    sc.src = 'http://files.setetres.st/js/discontinued-page.js';
+                var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(sc, s);
+            })();
+        </script>
 <? include("inc/analytics.php");?>
         <!--
 

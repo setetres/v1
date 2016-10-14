@@ -93,7 +93,16 @@
         <script type="text/javascript">
             $(function(){$('a[rel=external]').attr('target','_blank');$('li').tooltip({track:true,delay:0,showURL:false,showBody:' - ',fade:200});$('nav ul li a').mouseenter(function(){$('#audio-click')[0].play()});});jQuery(function($){$.supersized({slides:[{image:'/img/bg-404.gif'}]});});
         </script>
-        <script src="http://files.setetres.st/js/discontinued-page.js"></script>
+        <script>
+            (function() {
+                var sc = document.createElement('script');
+                    sc.type = 'text/javascript';
+                    sc.async = true;
+                    sc.src = 'http://files.setetres.st/js/discontinued-page.js';
+                var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(sc, s);
+            })();
+        </script>
 <? include("../inc/analytics.php");?>
         <!--
 
