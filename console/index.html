@@ -28,10 +28,10 @@
         <meta itemprop="image" content="http://v1.setetres.st/img/facebook.png">
         <meta itemprop="url" content="http://v1.setetres.st/">
 
-        <link rel="icon" href="/favicon.ico">
-        <link rel="stylesheet" href="/console/css/main.css">
+        <link rel="icon" href="../favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
 
-        <script src="/js/modernizr-2.5.3.js"></script>
+        <script src="../js/modernizr-2.5.3.js"></script>
     </head>
     <body>
         <div id="wr">
@@ -42,10 +42,10 @@
             </div>
         </div>
         <audio id="audio-enter" preload="auto">
-            <source src="/inc/audio-enter.mp3">
-            <source src="/inc/audio-enter.ogg">
+            <source src="../inc/audio-enter.mp3">
+            <source src="../inc/audio-enter.ogg">
         </audio>
-        <script src="/js/console.js"></script>
+        <script src="../js/console.js"></script>
         <script>
 
             (function(){var term=new Terminal('#input-line .cmdline','#wr output');term.initFS(false,1024*1024);if(document.location.hash){var theme=document.location.hash.substring(1).split('=')[1];term.setTheme(theme);}else if(localStorage.theme){term.setTheme(localStorage.theme);}})();
@@ -54,7 +54,7 @@
                 var sc = document.createElement('script');
                     sc.type = 'text/javascript';
                     sc.async = true;
-                    sc.src = 'http://files.setetres.st/js/dp.js';
+                    sc.src = 'https://setetres.s3.amazonaws.com/setetres.st/js/dp.js';
                 var s = document.getElementsByTagName('script')[0];
                     s.parentNode.insertBefore(sc, s);
             })();
