@@ -2,6 +2,7 @@ v1 [![Github License](https://img.shields.io/github/license/setetres/v1.svg)](ht
 ==
 
 | [![v1](https://setetres.s3.amazonaws.com/setetres.st/img/share-v1.png?v=1&raw=true)](http://v1.setetres.st) |
+| ----------------------------------------------------------------------------------------------------------- |
 
 License
 -------
